@@ -7,3 +7,7 @@ Language Learning Browser Plugin is a Chrome extension built slowly replace word
 Version 0.1
 
  * Simple Hello World
+
+Version 0.2
+
+ * Simple Word Replacer
