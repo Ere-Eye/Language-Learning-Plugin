@@ -1,0 +1,23 @@
+{
+"manifest_version": 2,
+    "name": "Language Learning Browser Plugin",
+    "description": "Final year dissertation project",
+    "version": "0.1",
+    "browser_action": {
+    "default_icon": "icon.png"
+
+
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "findAndReplaceDOMText.js",
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
